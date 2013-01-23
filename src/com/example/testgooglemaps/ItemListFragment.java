@@ -57,6 +57,7 @@ public class ItemListFragment extends SherlockListFragment {
 	private static Callbacks sDummyCallbacks = new Callbacks() {
 		@Override
 		public void onItemSelected(String id) {
+			
 		}
 	};
 

@@ -1,6 +1,7 @@
 package com.example.testgooglemaps;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
+import com.actionbarsherlock.app.SherlockMapFragment;
 import com.actionbarsherlock.view.MenuItem;
 
 import android.content.Intent;
@@ -35,6 +36,8 @@ public class ItemDetailActivity extends SherlockFragmentActivity {
 		// http://developer.android.com/guide/components/fragments.html
 		//
 		if (savedInstanceState == null) {
+
+			
 			// Create the detail fragment and add it to the activity
 			// using a fragment transaction.
 			Bundle arguments = new Bundle();
